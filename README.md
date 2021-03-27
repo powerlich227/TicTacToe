@@ -2,21 +2,21 @@
 
 ![tic tac toe image](./tictactoe.jpg)
 
-The goal of this assignment is to develop an application which takes a tic tac toe board, and outputs who the winner is (if any), or whether it is a draw. All of the code in your solution should be originally written by you. Please return your completed assignment within 24 hours from time of receipt.
+The game starts by taking in the names of 2 players and uses either 'x' or 'o' as their player marker on the board. The board is a n X n grid and each player takes turn placing markers on the board, starting with the first player. The game ends if any player has a straight set of n characters horizontal, vertical or diagonal or if the board is full.
 
-### Problem
+### Rules of the game
 
-You have just taken over a project that was rushed out the door by the previous developer. It seems to behave correctly with a 3x3 board. Thankfully, it seems like the developer has left behind a test suite to cover what they had already developed.
-
-### Your Goals
-
-- Refactor the existing code to prepare it to work with a n x n board
-- Currently the output is "draw", when there is no winner, and the game hasn't finished yet. Change this to say "unfinished" if the game hasn't been finished.
+- A player can't play more than once during a turn.
+- A player can't play in an already taken space.
+- Once a winning sequence is reached, the game is over regardless of how many turns have passed.
+- Once the board is full, game is over.
+- The output is `draw`, when there is no winner.
+- Change this to say `unfinished` if the game hasn't been finished.
 
 ### Running tests
 
-To test the game, you will need to install rspec. Run 'gem install rspec' in the terminal.
-Next, you will need to run the command 'rspec ./rspec/tic_tac_toe_spec.rb'.
+To test the game, you will need to install rspec. Run `gem install rspec` in the terminal.
+Next, you will need to run the command `rspec ./rspec/tic_tac_toe_spec.rb`.
 You will be greeted with either a failure or success message for each test.
 
 ### Notes
