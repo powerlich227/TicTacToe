@@ -15,7 +15,9 @@ You have just taken over a project that was rushed out the door by the previous 
 
 ### Running tests
 
-    ./bin/rspec
+To test the game, you will need to install rspec. Run 'gem install rspec' in the terminal.
+Next, you will need to run the command 'rspec ./rspec/tic_tac_toe_spec.rb'.
+You will be greeted with either a failure or success message for each test.
 
 ### Notes
 
