@@ -21,4 +21,5 @@ You will be greeted with either a failure or success message for each test.
 
 ### Notes
 
-- The tests that run against a 5x5 board are in the test file, but commented out. Uncomment once done to see whether they are passing. Once you are confident in your solution, add tests for 7x7 and 9x9 boards as well.
+- The tests that run against 3X3 board and 5x5 board are in the test file. 
+- Once you are confident in your solution, add tests for 7x7 and 9x9 boards as well.
